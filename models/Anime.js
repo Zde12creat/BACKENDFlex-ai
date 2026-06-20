@@ -12,4 +12,4 @@ const AnimeSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-module.exports = mongoose.model("Anime", AnimeSchema);
+module.exports = mongoose.model("Anime", AnimeSchema, "prompts");
